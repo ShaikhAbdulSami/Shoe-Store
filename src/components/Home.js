@@ -30,7 +30,7 @@ export const Home = () => {
       <Container  style={{width:"80%"}} >
       <div >
             <Container  sm={4} >
-            <h1  style={{ "textAlign": "center" }}>  </h1>
+            <h1  style={{ "textAlign": "center" }}> Welcome to Shaikh Shoe Store </h1>
             </Container>
       </div>
       </Container>

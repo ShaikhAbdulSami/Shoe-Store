@@ -9,16 +9,13 @@ import { GlobalProvider } from './context/GlobalState';
 import { NotFound } from "./components/NotFound";
 import ButtonAppBar from './components/Header';
 import './index.css';
-import { Button } from '@material-ui/core';
+//import { Button } from '@material-ui/core';
 import Footer from './Footer';
 
 
 function Shoe() {
   return (
     <React.Fragment>
-    <Button href="https://shaikhenterprises.surge.sh/" >
-      Home Page
-    </Button>
     <ButtonAppBar />
       <GlobalProvider>
         <Router>
