@@ -1,6 +1,7 @@
 import React,{createContext,useReducer} from 'react';
 import ProductReducer from "./ProductReducer";
 import shoes from "../components/Item.json";
+import Footer from '../Footer';
 
 const initialState = {
     cartData: JSON.parse(localStorage.getItem('cartData')) || [],
@@ -157,6 +158,7 @@ export const GlobalProvider = ({ children }) => {
         }}
         >
             {children}
+            <Footer />
         </GlobalContext.Provider>
     )
 }

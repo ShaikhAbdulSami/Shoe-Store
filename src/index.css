@@ -15,6 +15,7 @@ code {
 }
 .footer{
   color: whitesmoke;
+  text-align: center;
 }
 
 @media  (max-width: 770px) {
